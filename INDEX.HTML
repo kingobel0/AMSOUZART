@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>جمعية شباب أمسوزارت</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+
+<body style="--hero:url('./assets/hero.jpg');">
+  <!-- NAV -->
+  <div class="nav">
+    <div class="container">
+      <div class="nav-inner">
+        <a class="brand" href="./index.html">
+          <img src="./assets/LOGO.png" alt="شعار الجمعية" />
+          <div>
+            <div class="title">جمعية شباب أمسوزارت</div>
+            <div class="sub">التنمية • الاجتماعي • البيئة • الرياضة</div>
+          </div>
+        </a>
+
+        <nav class="menu">
+          <a href="./index.html">الرئيسية</a>
+          <a href="./fields.html">المجالات</a>
+          <a href="./contact.html">تواصل معنا</a>
+        </nav>
+
+        <div class="social-top">
+          <a class="whatsapp" target="_blank" href="https://wa.me/212600000000" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a class="facebook" target="_blank" href="https://facebook.com/yourpage" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a class="instagram" target="_blank" href="https://instagram.com/yourpage" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <!-- Mobile toggle -->
+        <input class="nav-toggle" id="navToggle" type="checkbox" />
+        <label class="hamburger" for="navToggle" aria-label="القائمة"><span></span></label>
+      </div>
+
+      <!-- Mobile dropdown -->
+      <div class="nav-drop">
+        <nav class="menu">
+          <a href="./index.html">الرئيسية</a>
+          <a href="./fields.html">المجالات</a>
+          <a href="./contact.html">تواصل معنا</a>
+        </nav>
+        <div class="social-top">
+          <a class="whatsapp" target="_blank" href="https://wa.me/212600000000" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a class="facebook" target="_blank" href="https://facebook.com/yourpage" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a class="instagram" target="_blank" href="https://instagram.com/yourpage" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-content">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-text">
+            <span class="badge">نسخة أولية للعرض</span>
+            <h1 class="hero-title">جمعية شباب أمسوزارت للتنمية والتعاون</h1>
+            <p class="hero-sub">سواعد الشباب لبناء مستقبل الجبل</p>
+            <p class="hero-ar2">معاً نحو تنمية مستدامة وتضامن فعّال داخل مجتمعنا المحلي.</p>
+
+            <a class="btn" href="#about"><span>اعرف المزيد</span><span aria-hidden="true">←</span></a>
+            <a class="btn" href="./fields.html" style="margin-inline-start:10px;"><span>تصفح المجالات</span><span aria-hidden="true">←</span></a>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="curve" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,70 C240,110 420,120 720,95 C1020,70 1200,20 1440,10 L1440,120 L0,120 Z" fill="#7f9332" opacity="0.55"></path>
+        <path d="M0,78 C240,118 420,128 720,103 C1020,78 1200,28 1440,18 L1440,120 L0,120 Z" fill="#fbfaf6"></path>
+      </svg>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="cardBox">
+        <div class="about-grid">
+          <div class="logo-box" aria-label="الشعار">
+            <img src="./assets/LOGO.png" alt="شعار الجمعية" />
+          </div>
+
+          <div>
+            <h2 class="about-head">أمسوزارت</h2>
+            <p class="about-text">
+              نبضٌ فتيٌّ يستمد قوته من حكمة الأجداد ليبني آفاقًا لا تحدّها الجبال. نعمل عبر رؤية تنموية شاملة
+              تمسّ البنية التحتية، المبادرات الاجتماعية والتربوية، حماية الموارد الطبيعية، وتشجيع الرياضة.
+            </p>
+
+            <a class="btn" href="./fields.html"><span>انتقل إلى المجالات</span><span aria-hidden="true">←</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIELDS preview -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-kicker">مجالاتنا</h2>
+      <h3 class="section-title">أربعة مجالات عمل تقود مبادرات الجمعية</h3>
+
+      <div class="cards">
+        <article class="card" style="--img:url('./assets/field-development.jpeg');">
+          <div class="card-media"></div>
+          <div class="tag">التنمية</div>
+          <div class="card-body">
+            <h4 class="card-title">مجال التنمية</h4>
+            <p class="card-text">تحسين الخدمات والفضاءات ودعم التكوين والمبادرات المحلية.</p>
+          </div>
+          <div class="card-footer">
+            <a class="more" href="./field-development.html"><span>عرض التفاصيل</span><span aria-hidden="true">‹</span></a>
+          </div>
+        </article>
+
+        <article class="card" style="--img:url('./assets/field-social.jpeg');">
+          <div class="card-media"></div>
+          <div class="tag">الاجتماعي</div>
+          <div class="card-body">
+            <h4 class="card-title">المجال الاجتماعي</h4>
+            <p class="card-text">دعم مدرسي، قوافل تضامنية، وأنشطة اجتماعية متنوعة.</p>
+          </div>
+          <div class="card-footer">
+            <a class="more" href="./field-social.html"><span>عرض التفاصيل</span><span aria-hidden="true">‹</span></a>
+          </div>
+        </article>
+
+        <article class="card" style="--img:url('./assets/field-environment.jpg');">
+          <div class="card-media"></div>
+          <div class="tag">البيئة</div>
+          <div class="card-body">
+            <h4 class="card-title">المجال البيئي</h4>
+            <p class="card-text">تشجير، نظافة، توعية، وحماية الموارد الطبيعية.</p>
+          </div>
+          <div class="card-footer">
+            <a class="more" href="./field-environment.html"><span>عرض التفاصيل</span><span aria-hidden="true">‹</span></a>
+          </div>
+        </article>
+
+        <article class="card" style="--img:url('./assets/field-sport.jpeg');">
+          <div class="card-media"></div>
+          <div class="tag">الرياضة</div>
+          <div class="card-body">
+            <h4 class="card-title">المجال الرياضي</h4>
+            <p class="card-text">أنشطة ودوريات وتجهيزات بسيطة لدعم الشباب والأطفال.</p>
+          </div>
+          <div class="card-footer">
+            <a class="more" href="./field-sport.html"><span>عرض التفاصيل</span><span aria-hidden="true">‹</span></a>
+          </div>
+        </article>
+      </div>
+
+      <div style="margin-top:22px; text-align:center;">
+        <a class="btn" href="./fields.html"><span>صفحة المجالات كاملة</span><span aria-hidden="true">←</span></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer">© جمعية شباب أمسوزارت — نسخة أولية للعرض</div>
+
+  <!-- Floating WhatsApp -->
+  <a class="whatsapp-float" target="_blank" href="https://wa.me/212600000000" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+</body>
+</html>
